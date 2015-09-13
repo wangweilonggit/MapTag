@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MapTag</string>
+    <string name="str_logo">Loading&#8230;</string>
+
+    <!-- Dashboard fragment -->
+    <string name="str_action_button">Action Button</string>
+    <string name="str_label_name">Name:</string>
+    <string name="str_label_description">Description:</string>
+    <string name="str_label_coordinates">Coordinates:</string>
+    <string name="fill_required_fields">Fill all the fileds</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+</resources>
