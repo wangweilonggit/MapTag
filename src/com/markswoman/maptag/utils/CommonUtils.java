@@ -1,9 +1,9 @@
 package com.markswoman.maptag.utils;
 
 import java.util.ArrayList;
+import java.util.Locale;
 
 import android.content.Context;
-import android.location.Location;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
@@ -41,8 +41,8 @@ public class CommonUtils {
 		double decimal = Math.abs(value - degrees);
 		int minutes = (int) (decimal * 60);
 		double seconds = decimal * 3600 - minutes * 60;
-		String result = String.format("%d° %d' %1.3f\"", degrees, minutes,
-				seconds);
+		String result = String.format(Locale.US, "%d° %d' %1.3f\"", degrees,
+				minutes, seconds);
 		return result;
 	}
 }
